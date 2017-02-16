@@ -1,0 +1,13 @@
+{
+  "region": "eu-west-1",
+  "aws_access_key": "AKIAIPO3EWV4CYC2RCBA",
+  "aws_secret_access_key": "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",
+  "ami_image_id": "ami-f9e6c29f",
+  "key_name": "",
+  "instance_type": "t2.micro",
+  "instance_id": "i-0d7eb4317d5988aa2",
+  "security_groups": "misows",
+  "ssh_key": "/home/joanna/.ssh/test_intsance.pem",
+  "s3_pass": "siema",
+  "s3_name": "misows-test-bucket"
+}
