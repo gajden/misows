@@ -1,0 +1,37 @@
+From ec2 instance, Python API:
+
+| > Upload file to s3
+| > time: 7.712157s
+| > Get file from s3
+| > time: 8.947758s
+| > file size: 200.000000 Mb
+Upload throughput: 25.933082 Mb/s
+Download throughput: 22.351967 Mb/s
+
+Locally, Python API:
+| > Upload file to s3
+| > time: 8.566451s
+| > Get file from s3
+| > time: 1.754721s
+| > file size: 1.000000 Mb
+Upload throughput: 0.116734 Mb/s
+Download throughput: 0.569891 Mb/s
+
+Locally s3cmd:
+| > Upload file to s3
+| > time: 8,991s
+| > Get file from s3
+| > time: 176,443 s
+| > file size: 1.000000 Mb
+Upload throughput: 0.11122 Mb/s
+Download throughput: 0.00566 Mb/s
+
+From ec2 instance, s3cmd:
+| > Upload file to s3
+| > time: 10.665s
+| > Get file from s3
+| > time: 9.486s
+| > file size: 200.000000 Mb
+Upload throughput: 18.7529 Mb/s
+Download throughput: 21.0837 Mb/s
+
