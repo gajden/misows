@@ -20,7 +20,7 @@ def timing(f):
 
 
 if __name__ == '__main__':
-    json_path = '/home/joanna/studia/misows/aws/conf.json'
+    json_path = '/home/joanna/studia/misows/aws/config.json'
     read_json(json_path)
 
 

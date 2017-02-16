@@ -13,7 +13,7 @@ from utilities import read_json
 
 
 def main():
-    config_path = '../aws/conf.json'
+    config_path = '../aws/config.json'
     conf = read_json(config_path)
     conn = connect_to_region(conf['region'],
                              aws_access_key_id=conf['aws_access_key'],
