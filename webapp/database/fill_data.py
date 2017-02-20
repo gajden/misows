@@ -37,8 +37,11 @@ def random_word(length):
 
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument('-s', '--source_dir', required=True)
+    parser.add_argument('-p', '--product_num', required=True)
+    args = parser.parse_args()
 
-    fill_database()
+    fill_database(args.source_dir, args.product_num)
 
 
 if __name__ == '__main__':
